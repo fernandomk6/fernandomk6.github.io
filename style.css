@@ -47,3 +47,21 @@ a:after {
 a:hover:after {
   top: 0%;
 }
+
+.project-container {
+  max-width: 300px;
+  background-color: rgb(52, 38, 75);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.project-container img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
